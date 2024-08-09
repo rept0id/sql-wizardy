@@ -1,1 +1,1 @@
-# sql-wizardy
+# sql-wizardry
