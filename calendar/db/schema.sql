@@ -1,0 +1,6 @@
+CREATE TABLE calendar (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    startD DATE NOT NULL,
+    endD DATE NOT NULL
+);
