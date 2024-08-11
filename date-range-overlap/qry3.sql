@@ -1,13 +1,13 @@
-WITH inputDateTemp AS (
+WITH input AS (
     SELECT '2020-08-14' AS start, '2020-08-16' AS end
 )
 SELECT 
     *
 FROM 
-    calendar, inputDateTemp
+    calendar, input
 WHERE 
-    -- the whole trick is to provide the opposite : start = inputEnd, end = InputStart
-    startD <= inputDateTemp.end
+    -- the whole trick is to provide the opposite : start = input.End, end = Input.Start
+    startD <= input.end
     AND 
-    endD >= inputDateTemp.start
+    endD >= input.start
 ;

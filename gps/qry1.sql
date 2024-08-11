@@ -1,6 +1,4 @@
-.headers on
-
-WITH inputCoordinatesTemp AS (
+WITH input AS (
     SELECT 
         37.8715 AS lat,
         23.6267 AS long
@@ -14,12 +12,12 @@ SELECT
         -- 6378 is earth's equatorial radius.
         --  source : https://en.wikipedia.org/wiki/Earth_radius
         6378 * acos(
-            cos(radians(ic.lat)) * cos(radians(m.lat)) * cos(radians(m.long) - radians(ic.long)) +
-            sin(radians(ic.lat)) * sin(radians(m.lat))
+            cos(radians(i.lat)) * cos(radians(m.lat)) * cos(radians(m.long) - radians(i.long)) +
+            sin(radians(i.lat)) * sin(radians(m.lat))
         )
-    ) AS distance
+    ) AS dist
 FROM 
-    monuments AS m, inputCoordinatesTemp AS ic
+    monuments AS m, input AS i
 ORDER BY 
-    distance
+    dist
 LIMIT 1
