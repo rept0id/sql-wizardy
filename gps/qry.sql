@@ -11,7 +11,9 @@ SELECT
     m.lat,
     m.long,
     (
-        6371 * acos(
+        -- 6378 is earth's equatorial radius.
+        --  source : https://en.wikipedia.org/wiki/Earth_radius
+        6378 * acos(
             cos(radians(ic.lat)) * cos(radians(m.lat)) * cos(radians(m.long) - radians(ic.long)) +
             sin(radians(ic.lat)) * sin(radians(m.lat))
         )
