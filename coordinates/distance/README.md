@@ -5,10 +5,19 @@
 ### Analysis
 
 #### Haversine Formula
+
+Originates from José de Mendoza y Ríos (1801) and James Andrew (1805).
+
+Characteristics:
+
 - more calculations, more computing power needed
 - more accurate - good for small distances
 
 #### Spherical Law of Cosines
+
+Originates from Al-Khwarizmi (9th century) and al-Battani (9th century).
+
+Characteristics:
 - less calculations, less computing power needed
 - less accurate - good for huge distances, bad for small
 
