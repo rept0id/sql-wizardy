@@ -1,10 +1,10 @@
 # Distance
 
-## Haversine vs Spherical Law of cosines
+## Haversine Formula vs Spherical Law of cosines
 
 ### Analysis
 
-#### Haversine
+#### Haversine Formula
 - more calculations, more computing power needed
 - more accurate - good for small distances
 
@@ -14,9 +14,9 @@
 
 ### Example Comparisons
 
-| Formula | Origin | Destination | Distance |
+| Method | Origin | Destination | Distance |
 | --- | --- | --- | --- |
-| Haversine | Gate of Athena Archegetis | Ancient Agora | 0.102153949767329 |
-| Haversine | Theatre of Dionysus | Parthenon | 0.180547757474251
+| H. F. | Gate of Athena Archegetis | Ancient Agora | 0.102153949767329 |
+| H. F. | Theatre of Dionysus | Parthenon | 0.180547757474251
 | Sp. L. Cos. | Gate of Athena Archegetis | Ancient Agora | 0.102153916458736 |
 | Sp. L. Cos. | Theatre of Dionysus | Parthenon | 0.180547738024323
