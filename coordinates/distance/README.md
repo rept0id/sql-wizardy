@@ -24,6 +24,6 @@ It originates from *Al-Khwarizmi* (9th century), *al-Battani* (9th century), and
 | Method | Origin | Destination | Distance |
 | --- | --- | --- | --- |
 | H.F. | Gate of Athena Archegetis | Ancient Agora | 0.102153949767329 |
-| H.F. | Theatre of Dionysus | Parthenon | 0.180547757474251
 | S.L.C. | Gate of Athena Archegetis | Ancient Agora | 0.102153916458736 |
+| H.F. | Theatre of Dionysus | Parthenon | 0.180547757474251 |
 | S.L.C. | Theatre of Dionysus | Parthenon | 0.180547738024323 |
