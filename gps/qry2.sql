@@ -9,8 +9,10 @@ SELECT
     m.lat,
     m.long,
     (
-        -- 6378 is earth's equatorial radius.
-        --  source : https://en.wikipedia.org/wiki/Earth_radius
+        -- Spherical law of cosines
+        --  source : https://en.wikipedia.org/wiki/Spherical_law_of_cosines
+        --  6378 is earth's equatorial radius.
+        --   source : https://en.wikipedia.org/wiki/Earth_radius
         6378 * acos(
             cos(radians(i.lat)) * cos(radians(m.lat)) * cos(radians(m.long) - radians(i.long)) +
             sin(radians(i.lat)) * sin(radians(m.lat))
