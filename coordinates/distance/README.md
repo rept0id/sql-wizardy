@@ -11,7 +11,7 @@ Originates from José de Mendoza y Ríos (1801) and James Andrew (1805).
 Characteristics:
 
 - more calculations, more computing power needed
-- more accurate - good for small distances
+- more accurate - good for small distances, bad for huge
 
 #### Spherical Law of Cosines
 
