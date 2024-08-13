@@ -23,4 +23,4 @@ It originates from Al-Khwarizmi (9th century), al-Battani (9th century), and Nī
 | H. F. | Gate of Athena Archegetis | Ancient Agora | 0.102153949767329 |
 | H. F. | Theatre of Dionysus | Parthenon | 0.180547757474251
 | Sp. L. Cos. | Gate of Athena Archegetis | Ancient Agora | 0.102153916458736 |
-| Sp. L. Cos. | Theatre of Dionysus | Parthenon | 0.180547738024323
+| Sp. L. Cos. | Theatre of Dionysus | Parthenon | 0.180547738024323 |
