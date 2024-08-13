@@ -8,13 +8,13 @@
 
 It involves more calculations, thus requiring more computing power. But, it's more accurate.
 
-It originates from José de Mendoza y Ríos (1801) and James Andrew (1805).
+It originates from *José de Mendoza y Ríos* (1801) and *James Andrew* (1805).
 
 #### Spherical Law of Cosines
 
 It involves fewer calculations, thus requiring less computing power. However, it's less accurate.
 
-It originates from Al-Khwarizmi (9th century), al-Battani (9th century), and Nīlakaṇṭha (15th century).
+It originates from *Al-Khwarizmi* (9th century), *al-Battani* (9th century), and *Nīlakaṇṭha* (15th century).
 
 ### Example Comparisons
 
