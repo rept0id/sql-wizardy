@@ -6,20 +6,15 @@
 
 #### Haversine Formula
 
-Originates from José de Mendoza y Ríos (1801) and James Andrew (1805).
+It involves more calculations, thus requiring more computing power. But, it's more accurate.
 
-Characteristics:
-
-- more calculations, more computing power needed
-- more accurate - good for small distances, bad for huge
+It originates from José de Mendoza y Ríos (1801) and James Andrew (1805).
 
 #### Spherical Law of Cosines
 
-Originates from Al-Khwarizmi (9th century), al-Battani (9th century) and Nīlakaṇṭha (15th century).
+It involves fewer calculations, thus requiring less computing power. However, it's less accurate.
 
-Characteristics:
-- less calculations, less computing power needed
-- less accurate - good for huge distances, bad for small
+It originates from Al-Khwarizmi (9th century), al-Battani (9th century), and Nīlakaṇṭha (15th century).
 
 ### Example Comparisons
 
