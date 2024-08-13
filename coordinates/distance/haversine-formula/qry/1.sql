@@ -11,10 +11,8 @@ SELECT
     m.long,
     (
         -- Haversine formula
-        --  source : https://en.wikipedia.org/wiki/Haversine_formula
         --  formula : 2 * R * asin( sqrt( sin((lat2 - lat1) / 2)^2 + cos(lat1) * cos(lat2) * sin((long2 - long1) / 2)^2) )
         --  let R = 6378. 6378 is earth's equatorial radius.
-        --   source : https://en.wikipedia.org/wiki/Earth_radius
         6378 * 2 * asin(
             sqrt(
                 power(sin(radians((m.lat - i.lat) / 2)),2) +
