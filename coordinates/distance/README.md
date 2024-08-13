@@ -15,7 +15,7 @@ Characteristics:
 
 #### Spherical Law of Cosines
 
-Originates from Al-Khwarizmi (9th century) and al-Battani (9th century).
+Originates from Al-Khwarizmi (9th century), al-Battani (9th century) and Nīlakaṇṭha (15th century).
 
 Characteristics:
 - less calculations, less computing power needed
