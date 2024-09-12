@@ -1,1 +1,1 @@
-# sql-research
+# sql-wizardry
